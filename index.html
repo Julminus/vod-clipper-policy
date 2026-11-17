@@ -4,7 +4,13 @@
 <style>body{font:16px/1.6 system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;color:#222;background:#fff}a{color:#0b57d0}</style>
 </head><body>
 <h1>vod-clipper</h1>
-<p>vod-clipper is a personal desktop tool that runs on its owner's own Windows PC. It turns the owner's long videos into short vertical clips and uploads the clips the owner has approved to the owner's own YouTube channel.</p>
-<p>It is not a public service. It has no accounts, no website login and no other users.</p>
+<p>vod-clipper is a personal desktop tool that runs on its owner's own Windows PC. It turns long videos (the owner's own gaming streams, and videos whose creators have given permission) into short vertical clips with subtitles, and uploads the clips the owner has approved to the owner's own YouTube channels.</p>
+<h2>How it uses YouTube</h2>
+<ul>
+<li>The owner connects a YouTube channel by signing in with Google.</li>
+<li>Approved clips are uploaded to that channel with the YouTube Data API.</li>
+<li>After each upload, vod-clipper checks with YouTube that the video finished processing and has the intended privacy setting.</li>
+</ul>
+<p>Everything else, from transcription to choosing the clips, happens on the owner's computer. It is not a public service: it has no accounts, no website login and no other users.</p>
 <p><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/Julminus/vod-clipper-policy/issues">Contact</a></p>
 </body></html>
